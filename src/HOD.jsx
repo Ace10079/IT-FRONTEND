@@ -157,6 +157,7 @@ function HOD() {
       {/* Project List Table */}
       <div className="bg-white p-6 rounded-lg shadow-lg mt-6 w-full max-w-5xl">
         <h2 className="text-xl font-bold mb-4">Project List</h2>
+        <div className="overflow-x-auto">
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-gray-200">
@@ -188,6 +189,8 @@ function HOD() {
             ))}
           </tbody>
         </table>
+        </div>
+       
       </div>
 
       {/* Modals */}
